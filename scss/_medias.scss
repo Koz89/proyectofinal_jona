@@ -1,0 +1,15 @@
+$mediasQ:(
+mobile:768px,
+tablet:980px,
+desktop:1080px
+);
+
+@each $vista, $ancho in $mediasQ {
+	.#{$vista}{
+	@media only screen and (max-width:$ancho){
+	.container{
+	width:100%;
+	}
+	}
+	}
+}

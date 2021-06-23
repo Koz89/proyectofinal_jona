@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left:0px;
+    padding-right: 0px;
+    max-width: 100%;
+}
+
+.container-fluid {
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+.footer{
+    background-image: linear-gradient(to top, black, grey);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+	margin-top: 30px;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider__mod{
+	margin-bottom: 50px;
+}
+
+body {
+    background: gainsboro;
+    color: #3B4747;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+.tel {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding-right: 20px;
+}
+
+.imagen__team {
+    display: flex;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+
+.texto__academia {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-right: 80px;
+    font-size: 120%;
+}
+
+.titulos__index {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.nav__flex {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.footer__insta  {
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer__face {
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Fin CSS Index */
+
+/* Media Query */
+
+@media only screen and (max-width: 768px){
+    p{font-size: 20px; color: #C9BDB9; text-align: center;}
+    h3{font-size: 35px; color: #A6383A; text-align: center;}
+  }
+
+/* Fin Media Query */
+
+/* CSS Conocenos.html */
+
+.titulos__conocenos {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.pretas__imagen {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.pretas__texto {
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;
+    color: #3B4747;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pretas__nombres {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Fin CSS Conocenos */
+
+/* CSS Horarios.html */
+
+.titulos__horarios {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.horarios__imagen {
+    display: flex;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+
+.horarios__texto {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 180px;
+    font-size: 120%;
+}
+
+/* Fin CSS Horarios.html */
+
+/* CSS Ubicacion */
+
+.ubicacion__tango {
+    display: flex;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+}
+
+.ubicacion__maps {
+    display: flex;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+}
+
+/* Fin CSS Ubicacion */
+
+/* CSS Reglamento */
+
+.reglamento__titulo {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.reglamento__texto {
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;
+    color: #3B4747;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.formulario__titulo {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.formulario {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
